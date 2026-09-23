@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,8 +12,18 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-act}" href="./change-font-size.html"
+            >Change Font Size</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {=$highlight-curr}" href="./promo-window.html"
+            >Promo Window</a
+          >
+        </li>
+      </ul>
     </main>
 
     <load src="./partials/footer.html" />
